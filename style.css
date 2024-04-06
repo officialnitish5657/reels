@@ -21,7 +21,7 @@ body {
     background-position: center center;
     height: calc(100% - 12px);
     padding: 6px 10px;
-    /* background-color: #1fdbf8cb; */
+    background-color: #1fdbf8cb;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
