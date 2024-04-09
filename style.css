@@ -78,8 +78,7 @@ nav img {
 }
 
 .details {
-    padding: 10px 5px;
-
+    padding:0 10px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
