@@ -5,63 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <!-- font style -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <!--  -->
+
+
 </head>
 
 <body>
     <div class="main">
-        <img src="https://img.freepik.com/premium-photo/little-boy-with-cowboy-hat-map-world_861724-933.jpg" alt="">
-        <nav>
-            <img src="https://img.freepik.com/premium-photo/little-boy-with-cowboy-hat-map-world_861724-933.jpg" alt="">
-            <h1>They liked you.</h1>
-            <div class="messages">
-                <h6>5</h6>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffffb7" class="bi bi-chat-fill"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9 9 0 0 0 8 15" />
-                </svg>
+        <div class="imagecard">
+            <div class="maincard">
+                <img src="" alt="">
+            </div>
+            <div class="incomingcard">
+                <img src="" alt="">
+            </div>
+        </div>
+
+        <div class="reel">
+            <div class="nav">
+                <div class="profilePic">
+                    <img src="" alt="">
+                </div>
+                <h1>They liked you</h1>
+                <div class="messiges">
+                    <i class="ri-chat-1-line"></i>
+                    <h6></h6>
+                </div>
             </div>
 
-        </nav>
+            <div class="details">
+                <div class="element location">
+                    <i class="ri-arrow-right-up-line"></i>
+                    <h6></h6>
+                </div>
+                <div class="element name">
+                    <h1>name</h1>
+                    <h1>20</h1>
+                </div>
+                <div class="element interest">
 
-        <div class="details">
-            <div class="location">
-                <svg xmlns="http://www.w3.org/2000/svg" width="0.9rem" height="0.9rem" fill="white"
-                    class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z" />
-                </svg>
-                <h4>USA, Califomla</h4>
-            </div>
-            <div class="name-age">
-                <h1>nitish</h1>
-                <h2>20</h2>
-            </div>
-            <div class="interest">
-                <h2>music</h2>
-                <h2>music</h2>
-                <h2>music</h2>
-            </div>
-            <div class="bio">
-                <h1>bio</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam deserunt mollitia, doloribus
-                    provident harum non.
-                </p>
+                </div>
+                <div class="element bio ">
+                    <h2>bio</h2>
+                    <p></p>
+                </div>
 
             </div>
             <div class="buttons">
-                <button>x</button>
-                <button>accept</button>
+                <button id="reject">
+                    <i class="ri-dislike-fill"></i>
+                </button>
+                <button id="accept">
+                    <i class="ri-heart-3-fill"></i>
+                </button>
             </div>
         </div>
+
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 
